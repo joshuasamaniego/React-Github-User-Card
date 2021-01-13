@@ -1,0 +1,13 @@
+.app__container {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  border: 1px solid black;
+}
+.app__container img {
+  width: auto;
+  height: 40vh;
+}
