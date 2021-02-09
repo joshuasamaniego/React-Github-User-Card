@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .user-card-container {
   display: flex;
@@ -38,12 +39,14 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .follower-card {
   margin: 1%;
-  padding: 5px;
+  padding: 2%;
   box-shadow: 1px 1px 6px 1px skyblue;
   width: 20%;
+  border-radius: 6px;
 }
 .follower-card img {
   width: 80px;
